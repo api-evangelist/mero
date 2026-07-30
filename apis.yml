@@ -1,7 +1,16 @@
 aid: mero
 name: Mero
-description: Mero is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mero is a Canadian SaaS platform for commercial building cleaning operations that uses
+  smart sensors and analytics to automatically log, validate, and prove cleaning activity
+  without manual input from janitorial staff. Its product is organized into three modules:
+  Validate (hands-free proof that cleaning was completed), Dispatch (occupancy- and
+  supply-driven scheduling), and Inspect (in-app QA and inspection tooling). Mero serves
+  janitorial companies, property managers, and commercial facilities, with data captured
+  across roughly 100M square feet at customers including Harvard, Colliers, and Toronto
+  Pearson Airport. The company advertises a data-integration API and a Zapier connector to
+  send and receive data with other tools, but publishes no public developer portal, API
+  reference, or machine-readable specification; API access is gated behind a sales demo.
 url: https://raw.githubusercontent.com/api-evangelist/mero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/6111627014d0c2d40cdc27e0/63be536e464ebd43eebd0c02_logo-mero%20(1).svg
 tags:
 - Company
+- Cleaning
+- Facilities Management
+- Janitorial
+- Building Operations
+- IoT
+- Sensors
+- SaaS
+- Occupancy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://mero.co
+- type: Pricing
+  url: https://mero.co/pricing
+- type: Blog
+  url: https://mero.co/blog
+- type: Support
+  url: https://support.mero.co/en/
+- type: Login
+  url: https://app.mero.co
+- type: TermsOfService
+  url: https://mero.co/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://mero.co/privacy-policy
+- type: DomainSecurity
+  url: security/mero-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
