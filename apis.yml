@@ -42,7 +42,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 image: https://cdn.prod.website-files.com/6111627014d0c2d40cdc27e0/63be536e464ebd43eebd0c02_logo-mero%20(1).svg
 tags:
 - Company
@@ -71,6 +71,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.mero.co/blog
+  type: Blog
+- url: https://www.mero.co/blog/rss.xml
+  type: BlogRSS
 - type: Website
   url: https://mero.co
 - type: Pricing
